@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link href="D:/html/jq/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" type="text/css">
+        <script src="D:/html/jq/jquery-3.4.1.js" ></script>
+         <link rel="stylesheet" type="text/css" href="D:/html/login/form.css">
+        <script src="D:/html/jq/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+           
+    
+    </head>
+<script type="text/javascript">
+	$(document).ready(function(){
+$(":text").focus(function(){
+   $(".eye").css({
+       opacity:'1'
+   });
+   $(".eyer").css({
+       opacity:'1'
+   });
+   $(".paw").css({
+       transform:'rotate(0deg)',
+       top:'42%',
+       left:'20%',
+       height:'20px',
+       width:'30px'
+   });
+   $(".paw2").css({
+       transform:'rotate(0deg)',
+       top:'42%',
+       left:'70%',
+       height:'20px',
+              width:'30px'
+   });
+});
+$(":password").focus(function(){
+                $(".eye").css({
+                 opacity: '0'
+                });
+                $(".eyer").css({
+                    opacity:'0'
+                });
+                $(".paw").css({
+                  transform: 'rotate(-150deg)',
+                    top: '10%',
+                    left:'20%',
+                    height:'30px',
+                    width:'40px'
+                });
+                $(".paw2").css({
+                  transform: 'rotate(150deg)',
+                    top: '10%',
+                    left:'55%',
+                    height:'30px',
+                    width:'40px'
+                });
+            });
+           }); 
+        
+</script>
+    <body>
+       <div class="container">
+           <div class="page">
+           <div class="paw"></div>
+           <div class="paw2"></div>
+           <div class="form">
+           <br>
+           
+           <input type="text" placeholder="Enter Email" >
+        <br>
+                      </input>
+           </input class="open" type="text"><br>
+               
+           <br>
+           
+                <input class="close" type="password" placeholder="password">
+                <br>
+                 </input><br>
+                <button type="button">Login</button>  
+                </div>               
+           
+               <div class="earl"></div>
+               <div class="earr"></div>
+               <div class="face">
+                   <div class="eye">
+                       <div class="dot"></div>
+                   </div>
+                    <div class="eyer">
+                       <div class="dot"></div>
+                   </div>
+                   <div class="nose"></div>
+                   <div class="smile">
+                       <div class="mouth"></div>
+                       <div class="tongue"></div>
+            
+                   </div>
+               </div>
+           </div>
+            <section>
+               <a href="#">
+                    <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"width="40px" height="40px"/>
+                </a>
+                <a href="#">
+                    <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" width="40px" height="40px"/>
+                </a>    
+                <a href="#">
+                    <img alt="github"
+src="https://www.iconsdb.com/icons/preview/purple/github-10-xxl.png"  width="35px"  height="35px">             
+                </a>       
+           </section>        
+       </div>
+    </body>
+</html>
